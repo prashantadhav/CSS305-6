@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainwindow{
+    /* border: 2px solid red ; */
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    /* border: 2px solid blue; */
+    height: 15vh;
+    display: flex;
+}
+.nav1{
+    /* border: 2px solid green; */
+    width: 50%;
+   
+
+}
+.nav1 button{
+    border: none;
+    background-color: transparent;
+    transition: ease-in-out;
+}
+.nav1 button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.nav1 img{
+    width: 200px;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    
+}
+.nav2{
+    /* border: 2px solid rebeccapurple; */
+    width: 24%;
+    display: flex;
+    justify-content: space-around;
+    border-right: 2px solid rgb(189, 185, 185);
+    
+    /* padding: 1rem 1rem; */
+    
+}
+.nav2 img{
+    /* padding: 5px; */
+    padding-left: 2px;
+    width: 60px;
+}
+.nav2 button{
+    border: none;
+    background-color: transparent;
+}
+.nav2 button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.nav3{
+    /* border: 2px solid red; */
+    width: 26%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.nav3 button{
+    width: 100px;
+    height: 50px;
+}
+.nav31 button{
+   border: none;
+   background-color: transparent;
+   color: rgb(120, 117, 117);
+}
+.nav31 button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.nav32 button{
+    border: 1px solid rgb(14, 95, 225);
+    background-color: transparent;
+    border-radius: 25px;
+    color: rgb(14, 95, 225);
+}
+.nav32 button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.bottom{
+    /* border: 2px solid green; */
+    height: 85%;
+    display: flex;
+}
+.leftbottom{
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    
+}
+.leftbottom h2{
+    height: 100px;
+    color: rgb(192, 128, 1);
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 0;
+}
+.leftbottom input{
+    width: 300px;
+    height: 40px;
+    text-align: start;
+    padding: 0 0;
+}
+.leftbottom h6{
+    font-family: 'Poppins', sans-serif;   
+}
+.leftbottom button{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(48, 151, 247);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;  
+    border-radius: 30px;
+
+}
+.leftbottom button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.leftbottom h5{
+    padding: 0 0;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.leftbottom h6{
+    color:rgb(48, 151, 247) ;
+}
+.leftbottom p{
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;  
+}
+
+.rightbottom{
+    /* border: 2px solid darkgreen; */
+    width: 40%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 5rem;
+ 
+}
